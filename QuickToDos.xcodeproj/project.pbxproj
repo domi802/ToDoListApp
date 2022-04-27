@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B46A36C327A969C000658045 /* ToDoListViev.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46A36C227A969C000658045 /* ToDoListViev.swift */; };
+		B46A36C527A96BEC00658045 /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46A36C427A96BEC00658045 /* AddToDoView.swift */; };
 		B4ACBDC227A6D2E20053398B /* QuickToDosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ACBDC127A6D2E20053398B /* QuickToDosApp.swift */; };
 		B4ACBDC427A6D2E20053398B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ACBDC327A6D2E20053398B /* ContentView.swift */; };
 		B4ACBDC627A6D2E40053398B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4ACBDC527A6D2E40053398B /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B46A36C227A969C000658045 /* ToDoListViev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViev.swift; sourceTree = "<group>"; };
+		B46A36C427A96BEC00658045 /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
 		B4ACBDBE27A6D2E20053398B /* QuickToDos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickToDos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4ACBDC127A6D2E20053398B /* QuickToDosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickToDosApp.swift; sourceTree = "<group>"; };
 		B4ACBDC327A6D2E20053398B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 			children = (
 				B4ACBDC127A6D2E20053398B /* QuickToDosApp.swift */,
 				B4ACBDC327A6D2E20053398B /* ContentView.swift */,
+				B46A36C227A969C000658045 /* ToDoListViev.swift */,
+				B46A36C427A96BEC00658045 /* AddToDoView.swift */,
 				B4ACBDC527A6D2E40053398B /* Assets.xcassets */,
 				B4ACBDCA27A6D2E40053398B /* Persistence.swift */,
 				B4ACBDCC27A6D2E40053398B /* QuickToDos.xcdatamodeld */,
@@ -145,8 +151,10 @@
 			files = (
 				B4ACBDCB27A6D2E40053398B /* Persistence.swift in Sources */,
 				B4ACBDCE27A6D2E40053398B /* QuickToDos.xcdatamodeld in Sources */,
+				B46A36C527A96BEC00658045 /* AddToDoView.swift in Sources */,
 				B4ACBDC427A6D2E20053398B /* ContentView.swift in Sources */,
 				B4ACBDC227A6D2E20053398B /* QuickToDosApp.swift in Sources */,
+				B46A36C327A969C000658045 /* ToDoListViev.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

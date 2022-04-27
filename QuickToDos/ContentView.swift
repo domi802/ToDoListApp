@@ -5,6 +5,8 @@
 //  Created by Dominik Woźniak on 30/01/2022.
 //
 
+ //ToDoListViev
+
 import SwiftUI
 import CoreData
 
@@ -12,7 +14,7 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
+        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: false)],
         animation: .default)
     private var items: FetchedResults<Item>
 
@@ -86,3 +88,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
+

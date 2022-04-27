@@ -13,7 +13,7 @@ struct QuickToDosApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ToDoListViev()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
